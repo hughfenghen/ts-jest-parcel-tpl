@@ -11,7 +11,8 @@
   "scripts": {
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test": "jest --silent"
+    "test": "jest --silent",
+    "dev": "parcel src/index.html"
   },
   "dependencies": {},
   "devDependencies": {
