@@ -3,4 +3,4 @@ export default function add(a, b) {
 }
 
 
-document.getElementById('hi').innerHTML = 'Hi, ts-jest-parcel-tpl ~'
+// document.getElementById('hi').innerHTML = 'Hi, ts-jest-parcel-tpl ~'
