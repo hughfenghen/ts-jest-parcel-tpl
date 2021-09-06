@@ -6,17 +6,15 @@
   "configurations": [
     {
       "name": "Debug Jest Tests",
-      "type": "node",
+      "type": "pwa-node",
       "request": "launch",
       "runtimeArgs": [
-        "--inspect-brk=127.0.0.1:9230",
         "${workspaceRoot}/node_modules/.bin/jest",
         "--runInBand",
         "--watch"
       ],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
-      "port": 9230
     },
     {
       "type": "node",
